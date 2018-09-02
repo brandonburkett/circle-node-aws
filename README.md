@@ -1,5 +1,5 @@
 # CircleCI Node AWS Image
-This docker image uses the [circleci ci](https://circleci.com/docs/2.0/circleci-images/#nodejs) node base image and addes the following
+This docker image uses the [circleci](https://circleci.com/docs/2.0/circleci-images/#nodejs) node base image and addes the following
 * awscli (for s3 deployment)
 * puppeteer (headless chrome, static site generation)
 
