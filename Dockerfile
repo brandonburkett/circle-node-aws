@@ -10,3 +10,7 @@ LABEL maintainer="brandon@brandon-san.com"
 RUN sudo apt-get update && \
     sudo apt-get install -qq -y python-pip libpython-dev && \
     sudo pip install -q awscli --upgrade
+
+# install puppeteer
+RUN sudo npm install -g puppeteer --unsafe-perm=true --allow-root
+
