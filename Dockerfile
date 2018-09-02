@@ -3,7 +3,7 @@
 # ---------
 # Build Stage
 # ---------
-FROM circleci/node:10.8
+FROM circleci/node:10.8-browsers
 LABEL maintainer="brandon@brandon-san.com"
 
 # install aws cli
@@ -12,5 +12,5 @@ RUN sudo apt-get update && \
     sudo pip install -q awscli --upgrade
 
 # install puppeteer
-RUN sudo npm install -g puppeteer --unsafe-perm=true --allow-root
+# RUN sudo npm install -g puppeteer --unsafe-perm=true --allow-root
 
