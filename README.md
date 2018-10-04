@@ -6,6 +6,7 @@ Chrome is included and supports puppeteer (headless chrome) for React prerenderi
 
 ## Supported Tags
 * latest
+* 10.11
 * 10.10
 * 10.9
 * 10.8
