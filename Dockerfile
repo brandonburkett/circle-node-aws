@@ -3,7 +3,7 @@
 # ---------
 # Build Stage
 # ---------
-FROM circleci/node:10.11-browsers
+FROM circleci/node:10.12-browsers
 LABEL maintainer="brandon@brandon-san.com"
 
 # install aws cli
