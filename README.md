@@ -5,10 +5,8 @@ This docker image uses the [circleci/node:VERSION-browsers](https://circleci.com
 Chrome is included and supports puppeteer (headless chrome) for React prerendering.
 
 ## Supported Tags
-* latest
-* 10.13
-* 10.12
-* 10.11
-* 10.10
-* 10.9
-* 10.8
+version | tags
+------ | ------
+11.x | latest, 11.1
+10.x | 10.13, 10.12, 10.11, 10.10, 10.9, 10.8
+
