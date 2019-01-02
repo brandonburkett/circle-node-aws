@@ -8,5 +8,5 @@ Chrome is included and supports puppeteer (headless chrome) for React prerenderi
 version | tags
 ------ | ------
 11.x | latest, 11.3, 11.2, 11.1
-10.x | 10.15.0,10.14.1, 10.14, 10.13, 10.12, 10.11, 10.10, 10.9, 10.8
+10.x | 10.15.0, 10.14.2, 10.14.1, 10.14, 10.13, 10.12, 10.11, 10.10, 10.9, 10.8
 
